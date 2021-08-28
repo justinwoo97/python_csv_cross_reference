@@ -1,13 +1,17 @@
 # python_csv_cross_reference
 
-The Goal for this project is 
-1. extract all the non-duplicate names from the 38 csv files 
-2. cross reference all the names with all the csv files and put "1" under the event that people attend
- 
-Each file contains emails, First names, Last Names and etc.
+## What am I trying to solve? 
+Find out donors/benefactors we should invite back for next year based on their activeness. 
 
-final_csv_file_2.0.xls contains the result 
+## About Each CSV File
+Each CSV file contains 600-700 rows of data
+There are total 38 CSV files
+Total Data (600-700) X 38 = (**22800 - 26600**) rows
+You can view the exmaple CSV file [here](./example_file.csv)
 
-Parsons_dance_mailchimp_final.py 
+## The goal for this project is to
+ - [x] Extract all the non-duplicate names from 38 CSV files 
+ - [x] Cross-reference all the names with all the CSV files 
+ - [x] Export the results into [final_csv_file.csv](./final_csv_file.csv)
 
-test 
+
